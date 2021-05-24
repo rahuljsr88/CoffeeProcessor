@@ -18,7 +18,7 @@ public class CoffeeProcessorExceptionHandler {
     @ExceptionHandler(CoffeeProcessorException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ResponseBody
-    public CoffeeProcessorExceptionDto handleKalahGameException(CoffeeProcessorException ex) {
+    public CoffeeProcessorExceptionDto handleCoffeeProcessorException(CoffeeProcessorException ex) {
         return new CoffeeProcessorExceptionDto(ex.code, ex.severity, ex.status, ex.getMessage());
     }
 
