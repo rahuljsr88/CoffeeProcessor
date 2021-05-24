@@ -7,6 +7,7 @@ application startup , into an in memory H2 Database.
 Moreover, this path for the JSON files can be changed using the application.yml key path.json.
 
 This application Web Service is deployed on local using embedded tomcat in spring boot.
+The application also has Swagger enabled to view the APi documention , and it can be viewed using this url http://localhost:8080/v2/api-docs after application startup
 
 How to build:
 1) Checkout the code from git repository
