@@ -1,0 +1,5 @@
+path:
+  json:
+    products: /json/products.json
+    orders: /json/orders.json
+    payments: /json/payments.json
